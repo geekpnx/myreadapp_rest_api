@@ -94,10 +94,16 @@ or by going to PostgreSQL shell directly
 psql -U postgres
 ```
 
- and enter the query below
+and enter the query below
 
 ```sql
 CREATE DATABASE myreadapp_rest_api_db;
+```
+
+also if we need to create new user with the name  `myreadapp_rest_api_user`, type in the query below
+
+```sql
+CREATE ROLE myreadapp_rest_api_user WITH LOGIN SUPERUSER PASSWORD 'password';
 ```
 
 And add this information into the **`.env`** file.
@@ -113,6 +119,17 @@ make dev-m
 ```
 
 ## **STEP 7**
+
+Insert data to `myreadapp_rest_api_db`
+
+- With the command
+
+```bash
+make dev-insertdata
+```
+
+
+## **STEP 8**
 
 Run the django server by running the command below in terminal.
 

@@ -120,7 +120,7 @@ make dev-m
 
 ## **STEP 7**
 
-Insert data to `myreadapp_rest_api_db`
+Insert data to `myreadapp_rest_api_db` database.
 
 - With the command
 
@@ -128,8 +128,17 @@ Insert data to `myreadapp_rest_api_db`
 make dev-insertdata
 ```
 
-
 ## **STEP 8**
+
+Create `admin` user account (you can create the name as you desire)
+
+- With the command
+
+```bash
+make dev-super
+```
+
+## **STEP 9**
 
 Run the django server by running the command below in terminal.
 

@@ -4,12 +4,12 @@ These steps below is only when you have cloned the repo.
 
 ## **STEP 1**
 
-After, you need to go to  **`myreadapp_rest_api`** folder.
+After, you need to go to  **`myreadapp-rest-api`** folder.
 
 - With the command:
 
 ```bash
-cd myreadapp_rest_api
+cd myreadapp-rest-api
 ```
 
 ## **STEP 2**
@@ -18,7 +18,7 @@ Create virtual environment with **`venv`**.
 
 - With the command:
 ```bash
-python3 -m venv .venv --prompt myreadapp_rest_api
+python3 -m venv .venv --prompt myreadapp-rest-api
 ```
 
 Activate **`venv`**

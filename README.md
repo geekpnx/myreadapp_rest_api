@@ -52,22 +52,14 @@ nano .env
 Copy and paste the information below inside the file **`.env`**.
 
 ```bash
-SECRET_KEY=      # <-- Django SECRET_KEY goes here
-DB_NAME=        # <-- PorsgreSQL DB_NAME (database name) goes here
-DB_USER=postgres     # <-- PorsgreSQL default username (you can change it however you want) 
-DB_PWD=postgres       # <-- PorsgreSQL default password (you can change it however you want) 
+SECRET_KEY=      
+DB_NAME=
+DB_USER=
+DB_PWD=
 DB_PORT=5432
 DB_HOST=localhost
 ```
-Your may  want to generate your own `SECRET_KEY` you can either run below command in **`iPython`**
-
-```py
-import secrets
-
-secrets.token_urlsafe(50)
-```
-
-or by running the script in **`generateSKEY.py`** file.
+Your may  want to generate your own `SECRET_KEY` by running the script in **`generateSKEY.py`** file.
 
 - With the command 
 

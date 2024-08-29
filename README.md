@@ -98,7 +98,7 @@ also if we need to create new user with the name  `myreadapp_rest_api_user`, typ
 CREATE ROLE myreadapp_rest_api_user WITH LOGIN SUPERUSER PASSWORD 'password';
 ```
 
-And add this information into the **`.env`** file.
+And add all of these information into the **`.env`** file.
 
 ## **STEP 6**
 

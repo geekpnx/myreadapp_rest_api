@@ -16,3 +16,5 @@ dev-test:
 	python3 manage.py test --settings=config.settings.dev
 dev-insertdata:
 	python3 manage.py shell < data.py --settings=config.settings.dev
+dev-super:
+	python3 manage.py createsuperuser --settings=config.settings.dev
